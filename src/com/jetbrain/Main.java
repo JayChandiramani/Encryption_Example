@@ -9,7 +9,7 @@ public class Main {
     public static void main (String[] arg) {
         Choice_Page CPObject = new Choice_Page();
 
-        EncDecChoice = new JFrame("Jay's Shitty Encryption/Decryption Program");
+        EncDecChoice = new JFrame("Jay's Encryption/Decryption Program");
         EncDecChoice.setContentPane(CPObject.CPanel);
         EncDecChoice.setVisible(true);
         EncDecChoice.pack();
